@@ -1,0 +1,15 @@
+D:\WorkSpace\Library\ObjectPool\ObjectPool\bin\Release\net6.0\ObjectPool.deps.json
+D:\WorkSpace\Library\ObjectPool\ObjectPool\bin\Release\net6.0\ObjectPool.dll
+D:\WorkSpace\Library\ObjectPool\ObjectPool\bin\Release\net6.0\ObjectPool.pdb
+D:\WorkSpace\Library\ObjectPool\ObjectPool\bin\Release\net6.0\UnityEngine.dll
+D:\WorkSpace\Library\ObjectPool\ObjectPool\bin\Release\net6.0\UnityEngine.xml
+D:\WorkSpace\Library\ObjectPool\ObjectPool\obj\Release\net6.0\ObjectPool.csproj.AssemblyReference.cache
+D:\WorkSpace\Library\ObjectPool\ObjectPool\obj\Release\net6.0\ObjectPool.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Library\ObjectPool\ObjectPool\obj\Release\net6.0\ObjectPool.AssemblyInfoInputs.cache
+D:\WorkSpace\Library\ObjectPool\ObjectPool\obj\Release\net6.0\ObjectPool.AssemblyInfo.cs
+D:\WorkSpace\Library\ObjectPool\ObjectPool\obj\Release\net6.0\ObjectPool.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Library\ObjectPool\ObjectPool\obj\Release\net6.0\ObjectPool.csproj.CopyComplete
+D:\WorkSpace\Library\ObjectPool\ObjectPool\obj\Release\net6.0\ObjectPool.dll
+D:\WorkSpace\Library\ObjectPool\ObjectPool\obj\Release\net6.0\refint\ObjectPool.dll
+D:\WorkSpace\Library\ObjectPool\ObjectPool\obj\Release\net6.0\ObjectPool.pdb
+D:\WorkSpace\Library\ObjectPool\ObjectPool\obj\Release\net6.0\ref\ObjectPool.dll
