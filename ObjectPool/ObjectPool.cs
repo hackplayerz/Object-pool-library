@@ -37,6 +37,9 @@ namespace ObjectPool
         /// <returns>저장된 객체</returns>
         public T Pop()
         {
+            // 0이 없다면 생성
+            if(!_pool[0])
+                Create();
             if (_count > _pool.Count - 1)
             {
                 if (_pool[0].gameObject.activeSelf)
@@ -48,6 +51,27 @@ namespace ObjectPool
                     _count = 0;
                 }
             }
+            // count번째 객체가 소멸되있다면
+            // 객체를 풀에서 빼고 전체검사
+            // 사용 가능한 번째부터 사용
+            if (!_pool[_count])
+            {
+                for(int i = 0; i < _pool.Count;i++)
+                {
+                    if (!_pool[i])
+                    {
+                        _pool.Remove(_pool[i]);
+                    }
+                }
+            }
+            // 마지막 인덱스 번쨰 객체가 사용중이면 새로 생성
+            if (_pool[^1].gameObject.activeSelf)
+            {
+                Create();
+            }
+            // 아니면 _count로 지정 후 사용
+            _count = _pool.Count-1;
+
             _pool[_count].gameObject.SetActive(true);
             return _pool[_count++];
         }
