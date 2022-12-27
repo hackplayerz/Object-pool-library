@@ -6,12 +6,15 @@ namespace ObjectPool
     {
         private List<T> _pool = new List<T>();
         private int _count = 0;
-        private T _prefab;
+        private T _prefab = null;
+        private Transform _parent;
 
-        public ObjectPool(T prefab)
+
+        public ObjectPool(T prefab, Transform parent = null)
         {
-            _prefab = prefab;
+            this._prefab = prefab;
             Create();
+            _parent=parent;
         }
 
         /// <summary>
@@ -21,6 +24,10 @@ namespace ObjectPool
         {
             T unit = UnityEngine.Object.Instantiate(_prefab).GetComponent<T>();
             unit.gameObject.SetActive(false);
+            if(_parent)
+            {
+                unit.transform.SetParent(_parent);
+            }
             _pool.Add(unit);
         }
 
