@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\deval\\.nuget\\packages\\": {}
+    "C:\\Users\\deval\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkSpace\\Library\\ObjectPool\\ObjectPool\\ObjectPool.csproj",
+      "projectUniqueName": "D:\\WorkSpace\\Library\\ObjectPool\\ObjectPool\\ObjectPool\\ObjectPool.csproj",
       "projectName": "ObjectPool",
-      "projectPath": "D:\\WorkSpace\\Library\\ObjectPool\\ObjectPool\\ObjectPool.csproj",
+      "projectPath": "D:\\WorkSpace\\Library\\ObjectPool\\ObjectPool\\ObjectPool\\ObjectPool.csproj",
       "packagesPath": "C:\\Users\\deval\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkSpace\\Library\\ObjectPool\\ObjectPool\\obj\\",
+      "outputPath": "D:\\WorkSpace\\Library\\ObjectPool\\ObjectPool\\ObjectPool\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\deval\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
