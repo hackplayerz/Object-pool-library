@@ -6,7 +6,7 @@
 > 빌드된 dll은 Assets/Script/Plugin에 넣어서 사용 가능
 
 ```cs
-public void Create() // 풀안에 객체를 생성하는 함수
-public T Pop() // 풀에서 객체를 빼옴
-public void Clear() //  풀 초기화
+public void Create(); // 풀안에 객체를 생성하는 함수
+public T Pop(); // 풀에서 객체를 빼옴
+public void Clear(); //  풀 초기화
 ```
